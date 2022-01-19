@@ -7,14 +7,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class AtividadeController {
 
-	@RequestMapping("/atividade1")
-	@GetMapping
+	@GetMapping("/atividade1")
 	public String Atividade1() {
 		return "Habilidades e mentalidades utilizadas: Atenção aos detalhes, Persistência e Mentalidade de Crescimento." ;
 	}
 	
-	@RequestMapping("/atividade2")
-	@GetMapping
+	@GetMapping("/atividade2")
 	public String Atividade2() {
 		return "Objetivos de aprendizagem: Conhecimentos básicos em MySQL, SpringBoot.";
 	}
